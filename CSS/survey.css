@@ -5,3 +5,7 @@ form {
     display: flex;
     flex-direction: column;
 }
+
+#email-label:invalid {
+    border-color: red;
+}
