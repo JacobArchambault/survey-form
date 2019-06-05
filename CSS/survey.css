@@ -1,11 +1,30 @@
-body {
+
+body, html {
     max-width: 100%;
-}
-form {
-    display: flex;
-    flex-direction: column;
+    background-image: url(../img/Bookshelves,_Hendrik_Conscience_Heritage_Library,_Antwerp,_Belgium,_2016-07-26,_06.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
 }
 
-#email-label:invalid {
-    border-color: red;
+main {
+    background-color: rgb(15, 15, 15);
+    color: rgb(240, 240, 240);
+    max-width: 24rem;
+    margin: auto;
+    text-align: center;
+}
+
+form {
+    align-items: baseline;
+    background-color: rgb(15, 0, 0);
+    display: flex;
+    color: rgb(240, 255, 255);
+    flex-direction: column;
+    text-align: justify;
+    padding: 1rem;
+}
+
+label {
+    margin-top: 1rem;
 }
